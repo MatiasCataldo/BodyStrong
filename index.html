@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="Landing page para gimnasio" content="">
@@ -12,59 +11,57 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="assets/images/logo.jpeg">
-
-
-
     <title>Body Strong</title>
-
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-training-studio.css">
-
 </head>
 
 <body>
-
-    <!-- ***** Preloader Start ***** -->
+    <!-- ***** Preloader Mejorado ***** -->
     <div id="js-preloader" class="js-preloader">
         <div class="preloader-inner">
-            <span class="dot"></span>
-            <div class="dots">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="loader-logo">
+                <img src="./assets/images/logo-header.png" alt="Body Strong Logo">
+            </div>
+            <div class="loader-animation">
+                <div class="loader-bar"></div>
+                <div class="loader-bar"></div>
+                <div class="loader-bar"></div>
+                <div class="loader-bar"></div>
             </div>
         </div>
     </div>
     <!-- ***** Preloader End ***** -->
 
-
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
+    <!-- ***** Header Mejorado ***** -->
+    <header class="header-area">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">BODY<em> STRONG</em></a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">INICIO</a></li>
-                            <li class="scroll-to-section"><a href="#sobreNosotros">SOBRE NOSOTROS</a></li>
-                            <li class="scroll-to-section"><a href="#our-classes">MEMBRESIAS</a></li>
-                            <li class="scroll-to-section"><a href="#horarios">HORARIOS</a></li>
-                            <li class="scroll-to-section"><a href="#contact-us">CONTACTO</a></li>
-                            <li class="main-button"><a href="#Inscripcion">INSCRIBITE</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
+            <nav class="main-nav">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <img src="./assets/images/logo-header.png" class="logo-img" alt="Body Strong Logo" style="width: 70px;">
+                    <span class="logo-text">BODY<em> STRONG</em></span>
+                </a>
+
+                <!-- Menú Principal -->
+                <ul class="nav-links">
+                    <li><a href="#top" class="nav-link active">INICIO</a></li>
+                    <li><a href="#sobreNosotros" class="nav-link">SOBRE NOSOTROS</a></li>
+                    <li><a href="#our-classes" class="nav-link">MEMBRESIAS</a></li>
+                    <li><a href="#horarios" class="nav-link">HORARIOS</a></li>
+                    <li><a href="#contact-us" class="nav-link">CONTACTO</a></li>
+                    <li><a href="#Inscripcion" class="nav-button">INSCRIBITE</a></li>
+                </ul>
+
+                <!-- Menú Hamburguesa -->
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
@@ -74,7 +71,6 @@
         <video autoplay muted loop id="bg-video">
             <source src="assets/images/gym-video.mp4" type="video/mp4" />
         </video>
-
         <div class="video-overlay header-text">
             <div class="caption">
                 <h6>work harder, get stronger</h6>
@@ -95,101 +91,113 @@
                     <div class="section-heading">
                         <h2>Sobre <em>Nosotros</em></h2>
                         <img src="assets/images/line-dec.png" alt="waves">
-                        <p>En Body Strong creemos que cada persona tiene el poder de transformarse. Somos más que un
-                            gimnasio: somos una comunidad que entrena con pasión, disciplina y compromiso. Contamos con
-                            instalaciones modernas, equipamiento de última generación y un equipo de profesionales
-                            dispuestos a acompañarte en cada paso de tu evolución física y mental</p>
+                        <p>
+                            En Body Strong contamos con más de 20 años de experiencia en el rubro. Creemos que cada
+                            persona tiene el poder de transformarse.
+                            Somos más que un gimnasio: somos una comunidad que entrena con pasión, disciplina y
+                            compromiso.
+                            Contamos con instalaciones modernas, equipamiento de última generación y un equipo de
+                            profesionales dispuestos a acompañarte en cada paso de tu evolución física y mental.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <ul class="features-items">
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img style="max-width: 100%; width: 100px;" src="assets/images/features-first-icon.png"
-                                    alt="training fifth">
+                <div class="features-container">
+                    <div class="features-grid">
+                        <!-- Columna 1 -->
+                        <div class="features-column">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <img src="assets/images/features-first-icon.png" alt="Atención personalizada"
+                                        loading="lazy">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Atención cercana y personalizada</h3>
+                                    <p>Siempre vas a encontrar un ambiente familiar y entrenadores que realmente se
+                                        preocupan por tu progreso.</p>
+                                </div>
                             </div>
-                            <div class="right-content">
-                                <h4>Atención cercana y personalizada</h4>
-                                <p> Siempre vas a encontrar un ambiente familiar y entrenadores que realmente se
-                                    preocupan por tu progreso.</p>
+
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <img src="assets/images/features-first-icon.png" alt="Ambiente cómodo"
+                                        loading="lazy">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Ambiente cómodo y sin distracciones</h3>
+                                    <p>Acá venís a entrenar. Sin clases masivas, sin colas eternas para usar una
+                                        máquina. Solo vos, tus objetivos y el hierro.</p>
+                                </div>
                             </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img style="max-width: 100%; width: 100px;" src="assets/images/features-first-icon.png"
-                                    alt="training fifth">
+
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <img src="assets/images/features-first-icon.png" alt="Equipamiento completo"
+                                        loading="lazy">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Equipamiento completo y funcional</h3>
+                                    <p>Contamos con todo lo que necesitás para entrenamientos de fuerza: pesas libres,
+                                        máquinas, bancos, mancuernas, barras y más.</p>
+                                </div>
                             </div>
-                            <div class="right-content">
-                                <h4>Ambiente cómodo y sin distracciones</h4>
-                                <p>IAcá venís a entrenar. Sin clases masivas, sin colas eternas para usar una máquina.
-                                    Solo vos, tus objetivos, y el hierro.</p>
+                        </div>
+
+                        <!-- Columna 2 -->
+                        <div class="features-column">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <img src="assets/images/features-first-icon.png" alt="Horarios flexibles"
+                                        loading="lazy">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Horarios amplios y flexibles</h3>
+                                    <p>Entrená a tu ritmo. Abrimos temprano y cerramos tarde para que puedas organizar
+                                        tus rutinas sin complicaciones.</p>
+                                </div>
                             </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img style="max-width: 100%; width: 100px;" src="assets/images/features-first-icon.png"
-                                    alt="training fifth">
+
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <img src="assets/images/features-first-icon.png" alt="Acceso accesible"
+                                        loading="lazy">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Acceso accesible y sin vueltas</h3>
+                                    <p>Precios pensados para que puedas entrenar bien, sin gastar de más. Porque la
+                                        salud no tiene por qué ser un lujo.</p>
+                                </div>
                             </div>
-                            <div class="right-content">
-                                <h4>Equipamiento completo y funcional</h4>
-                                <p>Contamos con todo lo que necesitás para entrenamientos de fuerza: pesas libres,
-                                    máquinas, bancos, mancuernas, barras y más.</p>
+
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <img src="assets/images/features-first-icon.png" alt="Progreso físico"
+                                        loading="lazy">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Ideal para enfocar tu progreso físico</h3>
+                                    <p>Sin clases grupales ni distracciones, el enfoque está 100% en el desarrollo de tu
+                                        cuerpo: fuerza, volumen, resistencia.</p>
+                                </div>
                             </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="features-items">
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img style="max-width: 100%; width: 100px;" src="assets/images/features-first-icon.png"
-                                    alt="training fifth">
-                            </div>
-                            <div class="right-content">
-                                <h4>Horarios amplios y flexibles</h4>
-                                <p>Entrená a tu ritmo. Abrimos temprano y cerramos tarde para que puedas organizar tus
-                                    rutinas sin complicaciones.</p>
-                            </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img style="max-width: 100%; width: 100px;" src="assets/images/features-first-icon.png"
-                                    alt="training fifth">
-                            </div>
-                            <div class="right-content">
-                                <h4>Acceso accesible y sin vueltas</h4>
-                                <p>Precios pensados para que puedas entrenar bien, sin gastar de más. Porque la salud no
-                                    tiene por qué ser un lujo.</p>
-                            </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img style="max-width: 100%; width: 100px;" src="assets/images/features-first-icon.png"
-                                    alt="training fifth">
-                            </div>
-                            <div class="right-content">
-                                <h4>Ideal para enfocar tu progreso físico</h4>
-                                <p>Sin clases grupales ni distracciones, el enfoque está 100% en el desarrollo de tu
-                                    cuerpo: fuerza, volumen, resistencia.</p>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- ***** Features Item End ***** -->
 
-    <!-- ***** Call to Action Start ***** -->
+    <!-- ***** EMPIEZA YA ***** -->
     <section class="section" id="call-to-action">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
                         <h2>No lo <em>pienses</em>, Empieza <em>Hoy</em>!</h2>
-                        <p>Cada persona que entra a Body Strong es única. Nos comprometemos con tu evolución física y
+                        <p>
+                            Cada persona que entra a Body Strong es única. Nos comprometemos con tu evolución física y
                             mental, brindándote las herramientas, el acompañamiento profesional y la motivación
-                            necesaria para que logres tus metas. Porque tu transformación también es nuestro propósito.
+                            necesaria para que logres tus metas.
                         </p>
                         <div class="main-button scroll-to-section">
                             <a href="#our-classes">Empieza Ya!</a>
@@ -201,7 +209,7 @@
     </section>
     <!-- ***** Call to Action End ***** -->
 
-    <!-- ***** Our Classes Start ***** -->
+    <!-- ***** PLANES ***** -->
     <section class="section" id="our-classes">
         <div class="container">
             <div class="row">
@@ -215,304 +223,639 @@
                     </div>
                 </div>
             </div>
-            <div class="row" id="tabs">
-                <div class="col-lg-4">
-                    <ul>
-                        <li><a href='#tabs-1' onclick="scrollToTab('tabs-1')"><img
-                                    src="assets/images/tabs-first-icon.png" alt="">PLAN MENSUAL</a></li>
-                        <li><a href='#tabs-2' onclick="scrollToTab('tabs-2')"><img
-                                    src="assets/images/tabs-first-icon.png" alt="">PLAN 2 MESES</a></a></li>
-                        <li><a href='#tabs-3' onclick="scrollToTab('tabs-3')"><img
-                                    src="assets/images/tabs-first-icon.png" alt="">PLAN 3 MESES</a></a></li>
-                        <li><a href='#tabs-4' onclick="scrollToTab('tabs-4')"><img
-                                    src="assets/images/tabs-first-icon.png" alt="">PLAN FAMILIAR</a></a></li>
-                        <div class="main-rounded-button"><a href="#horarios">Consultar Horarios</a></div>
-                    </ul>
+
+            <div class="tabs-container">
+                <div class="tabs-header">
+                    <div class="tabs-navigation">
+                        <ul class="tabs-list">
+                            <li>
+                                <button class="tab-button active" data-tab="tabs-1">
+                                    <span class="tab-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="tab-label">PLAN MENSUAL</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="tab-button" data-tab="tabs-2">
+                                    <span class="tab-icon"><i class="fas fa-calendar-check"></i></span>
+                                    <span class="tab-label">PLAN 2 MESES</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="tab-button" data-tab="tabs-3">
+                                    <span class="tab-icon"><i class="fas fa-calendar-day"></i></span>
+                                    <span class="tab-label">PLAN 3 MESES</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="tab-button" data-tab="tabs-4">
+                                    <span class="tab-icon"><i class="fas fa-users"></i></span>
+                                    <span class="tab-label">PLAN FAMILIAR</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tabs-actions">
+                        <a href="#horarios" class="cta-button">Consultar Horarios</a>
+                    </div>
                 </div>
-                <div class="col-lg-8">
-                    <section class='tabs-content'>
-                        <article id='tabs-1'>
-                            <img src="assets/images/training-image-01.jpg" alt="First Class">
-                            <h4>Plan Mensual</h4>
-                            <p>Ideal si recién empezás o si querés probar el gimnasio sin compromiso a largo plazo.
-                                Acceso completo a todas las máquinas, atención personalizada y ambiente cómodo para
-                                entrenar a tu ritmo.</p>
-                        </article>
-                        <article id='tabs-2'>
-                            <img src="assets/images/training-image-02.jpg" alt="Second Training">
-                            <h4>Plan 2 Meses</h4>
-                            <p>Una opción pensada para quienes ya tienen una rutina y quieren continuidad. Dos meses de
-                                acceso sin interrupciones y seguimiento para que avances en tus objetivos físicos.</p>
-                        </article>
-                        <article id='tabs-3'>
-                            <img src="assets/images/training-image-03.jpg" alt="Third Class">
-                            <h4>Plan 3 Meses</h4>
-                            <p>El plan preferido por quienes se toman el entrenamiento en serio. Entrená tres meses con
-                                beneficios especiales, consejos de entrenamiento y una comunidad que te impulsa a
-                                seguir.</p>
-                        </article>
-                        <article id='tabs-4'>
-                            <img src="assets/images/training-image-04.jpg" alt="Fourth Training">
-                            <h4>Plan Familiar</h4>
-                            <p>¿Querés entrenar con alguien más de tu familia? Este plan te permite sumar a tus hijos,
-                                hermanos o pareja con un precio preferencial. Compartí la experiencia de cuidarse y
-                                estar activos juntos.</p>
-                        </article>
+
+                <div class="tabs-content-wrapper" style="margin-bottom: 60px !important;">
+                    <article id="tabs-1" class="tab-content active">
+                        <div class="plan-card">
+                            <div class="plan-image">
+                                <img src="assets/images/training-image-01.jpg" alt="Plan Mensual" loading="lazy">
+                            </div>
+                            <div class="plan-details">
+                                <h3>Plan Mensual <span class="price">$25.000</span></h3>
+                                <p>Ideal para quienes están comenzando su camino en el entrenamiento o desean conocer el
+                                    gimnasio antes de comprometerse a largo plazo.</p>
+                                <ul class="plan-features">
+                                    <li><i class="fas fa-check-circle"></i> Acceso ilimitado al gimnasio</li>
+                                    <li><i class="fas fa-check-circle"></i> Asesoría inicial</li>
+                                    <li><i class="fas fa-check-circle"></i> Sin compromiso de permanencia</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="tabs-2" class="tab-content">
+                        <div class="plan-card">
+                            <div class="plan-image">
+                                <img src="assets/images/training-image-02.jpg" alt="Plan 2 Meses" loading="lazy">
+                            </div>
+                            <div class="plan-details">
+                                <h3>Plan 2 Meses <span class="price">$44.000</span></h3>
+                                <p>Una opción pensada para quienes ya tienen una rutina y quieren continuidad con un
+                                    pequeño descuento por compromiso.</p>
+                                <ul class="plan-features">
+                                    <li><i class="fas fa-check-circle"></i> Todo lo del plan mensual</li>
+                                    <li><i class="fas fa-check-circle"></i> 10% de descuento</li>
+                                    <li><i class="fas fa-check-circle"></i> Evaluación física intermedia</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="tabs-3" class="tab-content">
+                        <div class="plan-card">
+                            <div class="plan-image">
+                                <img src="assets/images/training-image-03.jpg" alt="Plan 3 Meses" loading="lazy">
+                            </div>
+                            <div class="plan-details">
+                                <h3>Plan 3 Meses <span class="price">$61.000</span></h3>
+                                <p>El plan preferido por quienes se toman el entrenamiento en serio y quieren maximizar
+                                    sus resultados.</p>
+                                <ul class="plan-features">
+                                    <li><i class="fas fa-check-circle"></i> Todo lo del plan de 2 meses</li>
+                                    <li><i class="fas fa-check-circle"></i> 15% de descuento</li>
+                                    <li><i class="fas fa-check-circle"></i> Plan nutricional básico</li>
+                                    <li><i class="fas fa-check-circle"></i> Acceso a clases grupales</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="tabs-4" class="tab-content">
+                        <div class="plan-card">
+                            <div class="plan-image">
+                                <img src="assets/images/training-image-04.jpg" alt="Plan Familiar" loading="lazy">
+                            </div>
+                            <div class="plan-details">
+                                <h3>Plan Familiar <span class="price">$20.000</span></h3>
+                                <p>¿Querés entrenar con alguien más de tu familia? Compartí la experiencia de cuidarse y
+                                    estar activos juntos.</p>
+                                <ul class="plan-features">
+                                    <li><i class="fas fa-check-circle"></i> Precio por persona</li>
+                                    <li><i class="fas fa-check-circle"></i> Mínimo 2 miembros</li>
+                                    <li><i class="fas fa-check-circle"></i> Horarios coordinados</li>
+                                    <li><i class="fas fa-check-circle"></i> Actividades familiares</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- ***** HORARIOS ***** -->
+            <section class="section" id="horarios"
+                style="background-color: rgba(0, 0, 0, 0.596); max-width: 100% !important;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-3">
+                            <div class="section-heading dark-bg">
+                                <h2><em>Horarios</em> de Atención</h2>
+                                <img src="assets/images/line-dec.png" alt="">
+                                <p>Entrená cuando más te convenga. Te esperamos durante toda la semana con el mejor
+                                    ambiente y
+                                    el equipamiento necesario para que alcances tus objetivos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="schedule-table">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th>Día</th>
+                                            <th>Horario</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Lunes a Viernes</td>
+                                            <td>08:30 hs – 22:00 hs</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sábados</td>
+                                            <td>09:00 hs – 18:00 hs</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Domingos</td>
+                                            <td>Cerrado</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ***** EQUIPO ***** -->
+            <section class="section" id="trainers">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-3">
+                            <div class="section-heading">
+                                <h2>Nuestro <em>Equipo</em></h2>
+                                <img src="assets/images/line-dec.png" alt="">
+                                <p>En Body Strong creemos que un buen gimnasio no solo se construye con pesas y
+                                    máquinas, sino
+                                    con personas comprometidas, cercanas y dispuestas a ayudarte.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="team-section">
+                        <div class="container">
+                            <div class="section-header">
+                                <h2 class="section-title">Nuestro Equipo</h2>
+                                <p class="section-subtitle">Profesionales comprometidos con tu transformación física</p>
+                            </div>
+
+                            <div class="team-grid">
+                                <!-- Miembro 1 -->
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <img src="assets/images/first-trainer.jpg" alt="Matias Cataldo - Encargado"
+                                            loading="lazy">
+                                        <div class="social-links">
+                                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="position">Encargado</span>
+                                        <h3 class="name">Matias Cataldo</h3>
+                                        <p class="bio">Especialista en gestión deportiva con más de 10 años de
+                                            experiencia en el sector fitness.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Miembro 2 -->
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <img src="assets/images/second-trainer.jpg" alt="Elian Gonzalez - Entrenador"
+                                            loading="lazy">
+                                        <div class="social-links">
+                                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="position">Entrenador</span>
+                                        <h3 class="name">Elian Gonzalez</h3>
+                                        <p class="bio">Especialista en entrenamiento funcional y preparación física para
+                                            deportes.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Miembro 3 -->
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <img src="assets/images/third-trainer.jpg" alt="Axel Teves - Entrenador"
+                                            loading="lazy">
+                                        <div class="social-links">
+                                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="position">Entrenador</span>
+                                        <h3 class="name">Axel Teves</h3>
+                                        <p class="bio">Experto en culturismo y desarrollo muscular con enfoque
+                                            científico.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Miembro 4 -->
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <img src="assets/images/fourth-trainer.jpg" alt="Nayla Veron - Entrenadora"
+                                            loading="lazy">
+                                        <div class="social-links">
+                                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="position">Entrenadora</span>
+                                        <h3 class="name">Nayla Veron</h3>
+                                        <p class="bio">Especialista en entrenamiento para mujeres y programas de
+                                            bienestar integral.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Miembro 5 -->
+                                <div class="team-member">
+                                    <div class="member-photo">
+                                        <img src="assets/images/fifth -trainer.jpg" alt="Amanda Lugo - Recepcionista"
+                                            loading="lazy">
+                                        <div class="social-links">
+                                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="position">Recepcionista</span>
+                                        <h3 class="name">Amanda Lugo</h3>
+                                        <p class="bio">Tu primera cara amiga en el gimnasio, siempre dispuesta a
+                                            ayudarte.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Our Classes End ***** -->
+            </section>
 
-    <section class="section" id="horarios" style="background-color: rgba(0, 0, 0, 0.596);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading dark-bg">
-                        <h2><em>Horarios</em> de Atención</h2>
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>Entrená cuando más te convenga. Te esperamos durante toda la semana con el mejor ambiente y
-                            el equipamiento necesario para que alcances tus objetivos.</p>
+            <!-- ***** Contact Us Area Starts ***** -->
+            <section class="contact-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Contáctanos</h2>
+                        <p class="section-subtitle">Visítanos o envíanos tus datos para más información</p>
                     </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="schedule-table">
-                        <table class="table text-center">
-                            <thead>
-                                <tr>
-                                    <th>Día</th>
-                                    <th>Horario</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Lunes a Viernes</td>
-                                    <td>08:30 hs – 22:00 hs</td>
-                                </tr>
-                                <tr>
-                                    <td>Sábados</td>
-                                    <td>09:00 hs – 18:00 hs</td>
-                                </tr>
-                                <tr>
-                                    <td>Domingos</td>
-                                    <td>Cerrado</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
+                    <div class="contact-grid">
+                        <!-- Mapa mejorado -->
+                        <div class="map-container">
+                            <div class="map-header">
+                                <h3><i class="fas fa-map-marker-alt"></i> ¿Dónde estamos?</h3>
+                                <p class="map-address">
+                                    <i class="fas fa-home"></i> Martín Rodríguez 1421, Villa Centenario, Banfield
+                                </p>
+                            </div>
+                            <div class="map-wrapper">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.7987689695456!2d-58.43701522439796!3d-34.73546637290737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd969c3702a5%3A0x2ad311aba2e498f7!2sBody%20strong!5e0!3m2!1ses-419!2sar!4v1746843159558!5m2!1ses-419!2sar"
+                                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    aria-label="Mapa de ubicación del gimnasio">
+                                </iframe>
+                            </div>
+                            <div class="map-footer">
+                                <p><i class="fas fa-clock"></i> Horario: Lunes a Viernes 7:00 - 22:00 | Sábados 9:00 -
+                                    18:00</p>
+                            </div>
+                        </div>
 
-    <!-- ***** Testimonials Starts ***** -->
-    <section class="section" id="trainers">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-                        <h2>Nuestro <em>Equipo</em></h2>
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>En Body Strong creemos que un buen gimnasio no solo se construye con pesas y máquinas, sino
-                            con personas comprometidas, cercanas y dispuestas a ayudarte. Nuestro equipo está formado
-                            por entrenadores y recepcionistas que comparten una misma misión: acompañarte en tu cambio
-                            físico y hacerte sentir como en casa desde el primer día.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Encargado</span>
-                            <h4>Matias Cataldo</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/second-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Entrenador</span>
-                            <h4>Elian Gonzalez</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/third-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Entrenador</span>
-                            <h4>Axel Teves</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/fourth-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Entrenadora</span>
-                            <h4>Nayla Veron</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/fifth -trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Recepcionista</span>
-                            <h4>Amanda Lugo</h4>
+                        <!-- Formulario mejorado -->
+                        <div class="form-container" id="Inscripcion">
+                            <div class="form-header">
+                                <h3><i class="fas fa-edit"></i> Formulario de Inscripción</h3>
+                                <p>Completa tus datos y nos pondremos en contacto contigo</p>
+                            </div>
+
+                            <form id="contact-form" class="registration-form" action="#" method="post" novalidate>
+                                <div class="form-group">
+                                    <label for="nombreApellido">
+                                        <i class="fas fa-user"></i> Nombre y Apellido
+                                    </label>
+                                    <input type="text" id="nombreApellido" name="nombreApellido" required
+                                        placeholder="Ej: Juan Pérez">
+                                    <span class="form-error"></span>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="dni">
+                                            <i class="fas fa-id-card"></i> DNI
+                                        </label>
+                                        <input type="text" id="dni" name="dni" required placeholder="Ej: 12345678"
+                                            pattern="[0-9]{7,8}">
+                                        <span class="form-error"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="celular">
+                                            <i class="fas fa-mobile-alt"></i> Celular
+                                        </label>
+                                        <input type="tel" id="celular" name="celular" required
+                                            placeholder="Ej: 1123456789" pattern="[0-9]{10,15}">
+                                        <span class="form-error"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="fechaNacimiento">
+                                            <i class="fas fa-birthday-cake"></i> Fecha de Nacimiento
+                                        </label>
+                                        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required
+                                            max="<?php echo date('Y-m-d'); ?>">
+                                        <span class="form-error"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="genero">
+                                            <i class="fas fa-venus-mars"></i> Género
+                                        </label>
+                                        <select id="genero" name="genero" required>
+                                            <option value="" disabled selected>Seleccione una opción</option>
+                                            <option value="masculino">Masculino</option>
+                                            <option value="femenino">Femenino</option>
+                                            <option value="otro">Otro</option>
+                                            <option value="prefiero-no-decirlo">Prefiero no decirlo</option>
+                                        </select>
+                                        <span class="form-error"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="plan-interes">
+                                        <i class="fas fa-dumbbell"></i> Plan de interés
+                                    </label>
+                                    <select id="plan-interes" name="plan-interes">
+                                        <option value="" disabled selected>Seleccione un plan (opcional)</option>
+                                        <option value="mensual">Plan Mensual</option>
+                                        <option value="2meses">Plan 2 Meses</option>
+                                        <option value="3meses">Plan 3 Meses</option>
+                                        <option value="familiar">Plan Familiar</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-actions">
+                                    <button type="submit" class="submit-btn">
+                                        <i class="fas fa-paper-plane"></i> Enviar inscripción
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Testimonials Ends ***** -->
+            </section>
 
-    <!-- ***** Contact Us Area Starts ***** -->
-    <section class="section" style="margin-top: 30px;">
-        <div class="container">
-            <div class="row">
-                <!-- Mapa -->
-                <div class="col-lg-6">
-                    <h2>¿Dónde estamos?</h2>
-                    <iframe
-                        src="https://www.google.com/maps?q=Mart%C3%ADn+Rodr%C3%ADguez+1421,+Villa+Centenario,+Banfield&output=embed"
-                        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+
+            <!-- ***** CONTACTO ***** -->
+            <footer class="site-footer" id="contact-us">
+                <div class="footer-container">
+                    <div class="footer-content">
+                        <div class="footer-header">
+                            <h2 class="footer-title">Contacto</h2>
+                            <p class="footer-subtitle">¡Únete a nuestra comunidad fitness!</p>
+                        </div>
+
+                        <!-- Redes sociales mejoradas -->
+                        <div class="social-links2">
+                            <!-- WhatsApp -->
+                            <a href="https://wa.me/541112345678" class="social-link whatsapp" target="_blank"
+                                aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                                <span class="social-text">WhatsApp</span>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/tuusuario" class="social-link instagram" target="_blank"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span class="social-text">Instagram</span>
+                            </a>
+
+                            <!-- Email -->
+                            <a href="mailto:tuemail@gmail.com?subject=Consulta%20sobre%20planes"
+                                class="social-link email" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                                <span class="social-text">Email</span>
+                            </a>
+
+                            <!-- Teléfono -->
+                            <a href="tel:+541112345678" class="social-link phone" aria-label="Teléfono">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="social-text">Llamar</span>
+                            </a>
+                        </div>
+
+                        <!-- Horario -->
+                        <div class="footer-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <p>Lunes a Viernes: 7:00 - 22:00<br>Sábados: 9:00 - 18:00</p>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Martín Rodríguez 1421<br>Villa Centenario, Banfield</p>
+                            </div>
+                        </div>
+
+                        <!-- Copyright y créditos -->
+                        <div class="footer-bottom">
+                            <p class="copyright">
+                                &copy; <span id="current-year">2025</span> Body Strong. Todos los derechos reservados.
+                            </p>
+                            <p class="credits">
+                                Diseñado por <a href="https://www.linkedin.com/in/matiascataldo" target="_blank"
+                                    rel="noopener">Matias Cataldo</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
+            </footer>
 
-                <!-- Formulario -->
-                <div class="col-lg-6" id="Inscripcion">
-                    <h2>Formulario de Inscripción</h2>
-                    <form id="contact-form" action="#" method="post">
 
-                        <div class="form-group">
-                            <label style="margin-top: 5px;" for="nombreApellido">Nombre y Apellido</label>
-                            <input type="text" class="form-control" id="nombreApellido" name="nombreApellido" required>
-                        </div>
+            <!-- jQuery -->
+            <script src="assets/js/jquery-2.1.0.min.js"></script>
 
-                        <div class="form-group">
-                            <label for="dni">DNI</label>
-                            <input type="text" class="form-control" id="dni" name="dni" required>
-                        </div>
+            <!-- Bootstrap -->
+            <script src="assets/js/popper.js"></script>
+            <script src="assets/js/bootstrap.min.js"></script>
 
-                        <div class="form-group">
-                            <label for="celular">Celular</label>
-                            <input type="tel" class="form-control" id="celular" name="celular" required>
-                        </div>
+            <!-- Plugins -->
+            <script src="assets/js/scrollreveal.min.js"></script>
+            <script src="assets/js/waypoints.min.js"></script>
+            <script src="assets/js/jquery.counterup.min.js"></script>
+            <script src="assets/js/imgfix.min.js"></script>
+            <script src="assets/js/mixitup.js"></script>
+            <script src="assets/js/accordions.js"></script>
 
-                        <div class="form-group">
-                            <label for="fechaNacimiento">Fecha de Nacimiento</label>
-                            <input type="date" class="form-control" id="fechaNacimiento" name="fechaNacimiento"
-                                required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="genero">Género</label>
-                            <select class="form-control" id="genero" name="genero" required>
-                                <option value="">Seleccione una opción</option>
-                                <option value="masculino">Masculino</option>
-                                <option value="femenino">Femenino</option>
-                                <option value="prefiero-no-decirlo">Prefiero no decirlo</option>
-                            </select>
-                        </div>
-                        <button type="submit" class="btn btn-primary mt-3">Enviar inscripción</button>
-                    </form>
-                </div>
-    </section>
-    
-
-    <!-- ***** Footer Start ***** -->
-    <footer style="background-color: #f8f9fa; padding: 40px 0;" id="contact-us">
-        <div class="container">
-          <div class="text-center">
-            <h2 class="section-heading text-uppercase mb-3">Contacto</h2>
-            <h3 class="section-subheading text-muted mb-4" style="font-size: medium;">
-              Ponete en contacto con nosotros a través de...
-            </h3>
-      
-            <!-- Redes sociales -->
-            <div class="mb-4">
-              <!-- Gmail -->
-              <a style="border-radius: 50px;" class="btn btn-dark btn-social mx-2" 
-                 href="mailto:tuemail@gmail.com?Subject=Estoy%20interesado/a%20en%20un%20plan!" 
-                 aria-label="Gmail">
-                <i class="fab fa-google"></i>
-              </a>
-              <!-- Instagram -->
-              <a style="border-radius: 50px;" class="btn btn-dark btn-social mx-2" 
-                 href="https://www.instagram.com/tuusuario" 
-                 target="_blank" 
-                 aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <!-- WhatsApp -->
-              <a style="border-radius: 50px;" class="btn btn-dark btn-social mx-2" 
-                 href="https://wa.me/541112345678" 
-                 target="_blank" 
-                 aria-label="WhatsApp">
-                <i class="fab fa-whatsapp"></i>
-              </a>
-            </div>
-      
-            <!-- Pie de página -->
-            <p class="text-muted mb-0">
-              &copy; 2025 Body Strong – Designed by 
-              <a href="https://www.linkedin.com/in/matiascataldo" class="tm-text-link" target="_blank">
-                Matias Cataldo
-              </a>
-            </p>
-          </div>
-        </div>
-      </footer>
-      
-
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins -->
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script>
-    <script src="assets/js/mixitup.js"></script>
-    <script src="assets/js/accordions.js"></script>
-
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
+            <!-- Global Init -->
+            <script src="assets/js/custom.js"></script>
 
 </body>
-</html>
 
+</html>
 <script>
-    function scrollToTab(id) {
-        setTimeout(() => {
-            const el = document.getElementById(id);
-            if (el) {
-                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-        }, 200);
+    // Función mejorada para los tabs
+    function showTab(tabId, event) {
+        event.preventDefault();
+
+        // Remover clase active de todos los tabs y enlaces
+        document.querySelectorAll('.tab-pane').forEach(tab => {
+            tab.classList.remove('active');
+        });
+        document.querySelectorAll('.tab-link').forEach(link => {
+            link.classList.remove('active');
+        });
+
+        // Agregar clase active al tab y enlace seleccionados
+        document.getElementById(tabId).classList.add('active');
+        event.currentTarget.classList.add('active');
+
+        // Scroll suave para móviles
+        if (window.innerWidth < 992) {
+            setTimeout(() => {
+                document.getElementById(tabId).scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }, 100);
+        }
     }
+
+    // Inicialización al cargar la página
+    document.addEventListener('DOMContentLoaded', function () {
+        // Asegurar que el primer tab esté activo
+        if (!document.querySelector('.tab-pane.active')) {
+            document.querySelector('.tab-pane').classList.add('active');
+            document.querySelector('.tab-link').classList.add('active');
+        }
+
+        // Ajustar altura del banner en móviles
+        if (window.innerWidth < 768) {
+            const banner = document.querySelector('.main-banner');
+            banner.style.minHeight = 'calc(100vh - 80px)'; // Restar altura del header
+        }
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const tabButtons = document.querySelectorAll('.tab-button');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                // Remover clase active de todos los botones
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+
+                // Añadir clase active al botón clickeado
+                this.classList.add('active');
+
+                // Ocultar todos los contenidos
+                const tabContents = document.querySelectorAll('.tab-content');
+                tabContents.forEach(content => content.classList.remove('active'));
+
+                // Mostrar el contenido correspondiente
+                const tabId = this.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('contact-form');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            if (validateForm()) {
+                // Aquí iría el código para enviar el formulario
+                alert('Formulario enviado correctamente');
+                form.reset();
+            }
+        });
+
+        function validateForm() {
+            let isValid = true;
+            const inputs = form.querySelectorAll('input, select');
+
+            inputs.forEach(input => {
+                const errorElement = input.nextElementSibling;
+
+                if (input.required && !input.value) {
+                    errorElement.textContent = 'Este campo es obligatorio';
+                    isValid = false;
+                } else if (input.pattern && !new RegExp(input.pattern).test(input.value)) {
+                    errorElement.textContent = 'Formato incorrecto';
+                    isValid = false;
+                } else if (input.id === 'fechaNacimiento' && new Date(input.value) > new Date()) {
+                    errorElement.textContent = 'Fecha no válida';
+                    isValid = false;
+                } else {
+                    errorElement.textContent = '';
+                }
+            });
+
+            return isValid;
+        }
+
+        // Validación en tiempo real
+        form.querySelectorAll('input, select').forEach(input => {
+            input.addEventListener('input', function () {
+                const errorElement = this.nextElementSibling;
+                errorElement.textContent = '';
+            });
+        });
+    });
+
+    // Actualizar año automáticamente
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Efecto hover para móviles
+    document.querySelectorAll('.social-link').forEach(link => {
+        link.addEventListener('touchstart', function () {
+            this.classList.add('hover-effect');
+        });
+
+        link.addEventListener('touchend', function () {
+            setTimeout(() => {
+                this.classList.remove('hover-effect');
+            }, 150);
+        });
+    });
+    // Preloader
+    window.addEventListener('load', function () {
+        setTimeout(function () {
+            document.body.classList.add('loaded');
+        }, 1000);
+    });
+
+    // Menú Hamburguesa
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', function () {
+        this.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
+
+    // Cerrar menú al hacer clic en un enlace
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', function () {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+        });
+    });
+
+    // Scroll suave
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
 </script>
