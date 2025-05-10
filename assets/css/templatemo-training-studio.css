@@ -289,7 +289,7 @@ banner
   }
 
     .main-banner .caption h2 {
-    font-size: 44px !important;
+    font-size: 42px !important;
   }
 
   .main-banner .caption h2 em {
@@ -1256,7 +1256,6 @@ responsive
 }
 
 .plan-image img {
-  width: 100%;
   height: 250px;
   object-fit: cover;
   display: block;
@@ -2384,4 +2383,68 @@ input:valid, select:valid {
 .loaded .js-preloader {
     opacity: 0;
     pointer-events: none;
+}
+/* Estilos para el banner principal */
+.main-banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    overflow: hidden;
+    background-color: #2c3e50; /* Color de fondo por si falla el video */
+}
+
+/* Video de fondo */
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Overlay para mejor legibilidad */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenido del banner */
+.header-text {
+    z-index: 3;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+/* Media queries para móviles */
+@media (max-width: 768px) {
+    .main-banner {
+        min-height: 100vh;
+    }
+    
+    #bg-video {
+        display: block !important; /* Forzar visualización en móviles */
+    }
+    
+    /* Fallback para iOS que a veces bloquea autoplay */
+    .main-banner::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('assets/images/gym-fallback.jpg') center/cover no-repeat;
+        z-index: 0;
+    }
 }
